@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Qué es un Pipeline CI/CD?</title>
+    <link rel="stylesheet" href="../css/Que_ es_un_Pipeline_CI_CD.css">
+</head>
+<body>
+    <div class="content-container">
+        <div class="text-content">
+            <h2><strong>¿Qué es un Pipeline CI/CD?</strong></h2>
+            <p>Un Pipeline CI/CD es una serie de pasos que llevan un flujo de código desde la integración hasta el despliegue. Esto involucra integración continua, pruebas, compilaciones, liberación de código y cambios y despliegue en un determinado entorno.</p>
+
+            <h3><strong>Ejemplo:</strong></h3>
+            <p>Una empresa de API quiere una automatización total para revisión y despliegue de código.</p>
+
+            <h4><strong>Pipeline CI/CD:</strong></h4>
+            <ol>
+                <li><strong>Build:</strong> Cuando hacen un push al repositorio, el pipeline corre un proceso que construye la aplicación, por ejemplo: toma el código y lo convierte en un contenedor Docker.</li>
+                <li><strong>Test:</strong> Corre pruebas como unitarias o la que hicimos hoy para corroborar que todo funcione como se espera, en este caso de una API.</li>
+                <li><strong>Deploy:</strong> Si la prueba pasa, es desplegado en proceso en un ambiente de staging, pero vamos a verlo en el trabajo en producción.</li>
+            </ol>
+
+            <p>De esta forma, se aseguran de que cada cambio al código tenga un proceso automatizado de validación.</p>
+        </div>
+        <button id="back-button">Regresar</button>
+    </div>
+
+    <script src="../js/botton.js"></script>
+</body>
+</html>
